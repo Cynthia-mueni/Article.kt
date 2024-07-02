@@ -6,4 +6,5 @@ data class Article(
     val publishDate:String,
     val articlePreview:String,
     val link:String
+
 )

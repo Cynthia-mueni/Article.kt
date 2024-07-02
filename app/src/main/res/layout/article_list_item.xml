@@ -12,8 +12,8 @@
 
         <ImageView
             android:id="@+id/ivAvator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="68dp"
+            android:layout_height="65dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -22,70 +22,73 @@
 
         <TextView
             android:id="@+id/tvAuthor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="113dp"
+            android:layout_height="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="Trevor"
+            android:text=" Trevor Noah"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/ivAvator"
             app:layout_constraintTop_toTopOf="@+id/ivAvator" />
 
         <TextView
             android:id="@+id/tvTitle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_width="223dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="32dp"
             android:text="Born A Crime"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ivAvator"
-            app:layout_constraintTop_toBottomOf="@+id/tvAuthor" />
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivAvator" />
 
         <TextView
             android:id="@+id/tvPublishDate"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="122dp"
+            android:layout_height="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="52dp"
             android:layout_marginEnd="16dp"
             android:text="2016"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/ivAvator"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvArticlePreview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text=" 100words"
+            android:layout_marginTop="60dp"
+            android:text="Sometimes in big hollywood movies they'll have these crazy chase scenes where somebody jumps or gets thrown from a moving car.The person hits the ground and rolls for a bit. Then they come to a stop and pop up and dust themselves off, like it was no big deal.Whenever I see that I think,Thats rubbish.Getting thrown out of a moving car hurts way worse than that."
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ivAvator"
-            app:layout_constraintTop_toBottomOf="@+id/tvPublishDate" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
         <TextView
             android:id="@+id/tvLink"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="193dp"
+            android:layout_height="20dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="64dp"
             android:layout_marginEnd="16dp"
             android:text="View More..."
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/tvArticlePreview" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="49dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="280dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivAvator"
             app:srcCompat="@drawable/article_multiple_svgrepo_com" />
